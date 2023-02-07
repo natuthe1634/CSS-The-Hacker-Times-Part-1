@@ -2,19 +2,21 @@
 
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: "sans-serif";
     background-color: #eee;
     box-shadow: #ddd;
 }
 
 header {
-    font-family: Abril Fatface;
+    font-family: "Abril Fatface";
     text-align: center;
 }
 .newspaper-container{
     width: 700px;
     box-shadow: 1px 1px;
-    padding: 5rem;
+    padding: 5rem; 
+    border-radius: 15px;
+    background-color: #fff;
     margin: auto;
     border-style: double;
     padding: 2rem;
@@ -22,13 +24,16 @@ header {
 }
 
 main {
-    font-family: Roboto-Slab;
+    font-family: "Roboto Slab";
     color: #dd3232;
 }
-
 nav {
-    color: #777;
-    display: inline-block;
+    font-size: 0.9rem;
+}
+
+nav ul li {
+    display: inline;
+    width: 150px;
 }
 
 a {
@@ -36,17 +41,7 @@ a {
     color: #777;
 }
 
-ul {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    border-top: 1px solid  gray;
-    border-bottom: 1px solid gray;
-    border-radius: 0px;
-    padding: 10px 10px 10px 10px;
-    justify-content: space-between;
-  }
+
   
   li {
     list-style: none;
