@@ -30,26 +30,18 @@ main {
 nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    font-size: 0.9rem;
-    top: 7.5rem;
-    border-radius: 5px;
     color: #eee;
     position: sticky;
+    top: 0;
     z-index: 1;
     background-color: #fff;
     
-    
 }
 
-nav ul li {
-    display: inline;
-    width: 50px;
-    
-}
+
  
 ul {
-    padding-left: 0px;
-    margin: 5px;
+    
 }
 
 a {
@@ -90,6 +82,7 @@ a:active {
 
  h5 {
     text-align: left;
+    color: red;
  }
 
  h2 {
