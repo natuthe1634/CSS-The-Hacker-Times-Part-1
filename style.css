@@ -13,7 +13,7 @@ header {
 }
 .newspaper-container{
     width: 700px;
-    box-shadow: 10px 10px;
+    box-shadow: 1px 1px;
     padding: 5rem;
     margin: auto;
     border-style: double;
@@ -28,26 +28,31 @@ main {
 
 nav {
     color: #777;
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
-}
-
-ul, li {
-    margin: auto;
-    display: inline-block;
-    padding: 0rem;
-    list-style-type: none;
+    color: #777;
 }
 
 ul {
-    border-top: 4px solid  gray;
-    border-bottom: 4px solid gray;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    border-top: 1px solid  gray;
+    border-bottom: 1px solid gray;
     border-radius: 0px;
-    padding: 2px 2px 2px 2px;
-    margin: auto;
-}
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style: none;
+    padding: 2px;
+  }
+  
 
 div>.more-articles{
     text-align: center;
